@@ -9,6 +9,18 @@ body{
 
 header{
    border: 1px;
+   align-items: center;
+}
+
+h1,
+h2,
+h3, 
+p{
+    margin: 0;
+}
+
+.container{
+    width: 1158px;
 }
 
 p{
@@ -44,9 +56,20 @@ p{
     color: #404bbf;
 }
 
+
+header,
+.main-nav,
+.nav-menu,
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
 .nav-menu{
     font-weight: 500;
     letter-spacing: 2%;
+    
 }
 
 .contacts{
@@ -153,8 +176,8 @@ h2{
 
 ul{
     list-style: none;
-
-
+    margin: 0;
+    padding-left: 0;
 }
 
 .our-team{
