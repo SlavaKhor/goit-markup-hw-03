@@ -1,0 +1,178 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #FFFFFF;
+    
+}
+
+header{
+   border: 1px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-second-part{
+    color: #2e2f42;
+}
+
+.nav-button{
+    font-size: 16px;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+
+}
+
+.nav-button:hover,
+.nav-button:focus{
+    color: #404bbf;
+}
+
+.nav-menu{
+    font-weight: 500;
+    letter-spacing: 2%;
+}
+
+.contacts{
+    font-weight: 400;
+    font-style: normal;    
+}
+
+.potfolio-item-par,
+.contact{
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: #434455;
+}
+
+.contact:hover,
+.contact:focus{
+    color: #404bbf;
+}
+
+.main-header{
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+}
+
+.order-service-button{
+    font-weight: 500;
+    background-color: #4D5AE5;
+    color: #FFFFFF;   
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.order-service-button:hover,
+.order-service-button:focus{
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.portfolio-item-header,
+.skills-section-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.par{
+    color: #434455;
+}
+
+.skill-item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.our-portfolio-section-header,
+.our-team-section-header{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-member-card{
+    line-height: 1.2;
+    letter-spacing: 0.02em
+
+}
+.team-member-card-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.our-team-section-par{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+.approach{
+    letter-spacing: 0.02em;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+h2{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+
+
+}
+
+.our-team{
+    background-color: #F4F4FD;
+    
+}
+
+.our-team li{
+    text-align: center;
+    background-color: #FFFFFF;
+    
+}
+
+.our-portfolio li{
+    border: 1px solid rgba(231, 233, 252, 1);
+}
+
+footer p,
+footer a{
+    color: #F4F4FD;
+}
