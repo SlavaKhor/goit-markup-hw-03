@@ -6,6 +6,10 @@ body{
     background-color: #FFFFFF; 
 }
 
+img{
+    display: block;
+}
+
 h1,
 h2,
 h3, 
@@ -20,6 +24,10 @@ p
 
 .section.our-team{
     background-color: #F4F4FD;
+}
+
+.address{
+    gap: 40px;
 }
 
 p{
@@ -38,6 +46,8 @@ p{
     line-height: 1.17;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    padding: 24px 0 24px;
 }
 
 .logo-second-part{
@@ -59,12 +69,13 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container{
     width: 1158px;
     margin: auto;
+    padding: 0 15px 0 15px
 }
 
 .main-nav,
