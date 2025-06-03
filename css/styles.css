@@ -65,11 +65,16 @@ p{
 .nav-button:focus{
     color: #404bbf;
 }
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
+    
 }
 
 .container{
@@ -84,6 +89,7 @@ p{
     justify-content: space-around;
     gap: 40px;
     align-items: center;
+    padding: 24px 0 24px;
 }
 
 .nav-menu{
