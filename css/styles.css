@@ -202,8 +202,13 @@ ul .skill-item{
     text-transform: capitalize;
     color: #2e2f42;
     align-items: center;
+    margin-bottom: 72px;
 }
 
+.team-members-list{
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
 
 .section.our-team ul{
    justify-content: space-between;
