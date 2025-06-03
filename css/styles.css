@@ -3,29 +3,29 @@ body{
     color: #434455;
     font-size: 20px;
     line-height: 1.5;
-    background-color: #FFFFFF;
-    
-}
-
-header{
-   border: 1px;
-   align-items: center;
+    background-color: #FFFFFF; 
 }
 
 h1,
 h2,
 h3, 
-p{
+p
+{
     margin: 0;
 }
 
-.container{
-    width: 1158px;
+.section{
+    padding: 120px 0;
+}
+
+.section.our-team{
+    background-color: #F4F4FD;
 }
 
 p{
     font-weight: 400;
     font-size: 16px;
+    line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -55,15 +55,24 @@ p{
 .nav-button:focus{
     color: #404bbf;
 }
+.header .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #E7E9FC;
+}
 
+.container{
+    width: 1158px;
+    margin: auto;
+}
 
-header,
 .main-nav,
-.nav-menu,
-ul{
+.nav-menu{
     display: flex;
     justify-content: space-around;
     gap: 40px;
+    align-items: center;
 }
 
 .nav-menu{
@@ -74,7 +83,7 @@ ul{
 
 .contacts{
     font-weight: 400;
-    font-style: normal;    
+    font-style: normal;  
 }
 
 .potfolio-item-par,
@@ -95,7 +104,16 @@ ul{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    font-weight: 700;
     
+}
+
+.section.effective-solutions-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    gap: 10px;
 }
 
 .order-service-button{
@@ -105,6 +123,9 @@ ul{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px 16px 32px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .order-service-button:hover,
@@ -126,13 +147,14 @@ ul{
     color: #434455;
 }
 
-.skill-item{
+ul .skill-item{ 
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 
 .our-portfolio-section-header,
 .our-team-section-header{
@@ -141,25 +163,48 @@ ul{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    align-items: center;
+}
+
+
+.section.our-team ul{
+   justify-content: space-between;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    gap: 32px;
+    width: calc((100% - 128px)/3);
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.skill-list{
+    gap: 8px;
 }
 
 .team-member-card{
-    line-height: 1.2;
-    letter-spacing: 0.02em
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #FFFFFF;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0px 2px 1px 0px #2E2F4214,
+                0px 1px 1px 0px #2E2F4229,
+                0px 1px 6px 0px #2E2F4214;
 }
+
+
 .team-member-card-header{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    border: #FFFFFF;
 }
-.our-team-section-par{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-}
+
 .approach{
     letter-spacing: 0.02em;
 }
@@ -176,25 +221,34 @@ h2{
 
 ul{
     list-style: none;
-    margin: 0;
-    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
-.our-team{
-    background-color: #F4F4FD;
-    
+
+
+
+.portfolio-list{
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.portfolio-list li{
+    border: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E7E9FC;
 }
 
-.our-team li{
-    text-align: center;
-    background-color: #FFFFFF;
-    
+
+.section.our-portfolio ul{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.our-portfolio li{
-    border: 1px solid rgba(231, 233, 252, 1);
-}
 
+footer{
+    padding: 120px 0;
+}
 footer p,
 footer a{
     color: #F4F4FD;
