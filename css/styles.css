@@ -206,19 +206,16 @@ ul .skill-item{
 }
 
 .team-members-list{
-    gap: 24px;
-    width: calc((100% - 72px) / 4);
-}
-
-.section.our-team ul{
-   justify-content: space-between;
+    justify-content: space-between;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    gap: 32px;
+    gap: 24px;
     width: calc((100% - 128px)/3);
     align-items: center;
     padding-bottom: 32px;
+    
 }
+
 
 .skill-list{
     gap: 24px
@@ -251,6 +248,7 @@ ul .skill-item{
     letter-spacing: 0.02em;
     color: #2e2f42;
     border: #FFFFFF;
+    margin-bottom: 8px;
 }
 
 .approach{
