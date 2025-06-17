@@ -254,7 +254,7 @@ ul {
     
 }
 
-.portfolio-item .container{
+.portfolio-item-container{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -279,7 +279,7 @@ ul {
 /* === Footer === */
 footer {
   background-color: #2e2f42;
-  padding: 120px 0;
+  padding: 100px 0;
   color: #f4f4fd;
 }
 
@@ -289,4 +289,9 @@ footer .logo-f-part {
 
 footer p, footer a {
   color: #f4f4fd;
+}
+
+.logo{
+  display: inline-block;
+  margin-bottom: 16px;
 }
